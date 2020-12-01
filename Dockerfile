@@ -1,6 +1,6 @@
 FROM alpine:3.4
-#ENV NGINX_VERSION 1.18.0
-ENV NGINX_VERSION 1.13.6
+ENV NGINX_VERSION 1.18.0
+# ENV NGINX_VERSION 1.13.6
 
 COPY install.sh /usr/src/
 COPY nginx.key /usr/src/
